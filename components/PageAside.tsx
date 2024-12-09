@@ -25,7 +25,7 @@ export function PageAside({
       return null
     }
 
-   // return <PageActions tweet={tweet} />
+   return <PageActions tweet={tweet} />
   }
 
   return <PageSocial />
