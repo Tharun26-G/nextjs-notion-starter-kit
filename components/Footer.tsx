@@ -54,17 +54,6 @@ export function FooterImpl() {
       </div>
 
       <div className={styles.social}>
-        {config.twitter && (
-          <a
-            className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaTwitter />
-          </a>
-        )}
 
         {config.mastodon && (
           <a
